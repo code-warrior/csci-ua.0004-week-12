@@ -1,0 +1,26 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+p {
+   margin: 19.2px 0;
+}
+
+#container {
+   margin: auto;
+   width: 960px;
+}
+
+@media (max-width: 1024px) {
+   #container {
+      width: 768px;
+   }
+}
+
+/* 768 / 860 = .8930 = 89.3 % */
+@media (max-width: 860px) {
+   #container {
+      width: 89.3%;
+   }
+}
