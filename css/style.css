@@ -9,18 +9,17 @@ p {
 
 #container {
    margin: auto;
-   width: 960px;
+   width: 89.3%;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 860px) {
    #container {
       width: 768px;
    }
 }
 
-/* 768 / 860 = .8930 = 89.3 % */
-@media (max-width: 860px) {
+@media (min-width: 1024px) {
    #container {
-      width: 89.3%;
+      width: 960px;
    }
 }
