@@ -1,0 +1,13 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+div {
+   margin: 50px auto 0;
+   width: 400px;
+   height: 400px;
+   background-color: #8085ff;
+   border-radius: 50%;
+   box-shadow: 0 0 100px blue;
+}
