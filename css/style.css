@@ -7,7 +7,15 @@ div {
    margin: 50px auto 0;
    width: 400px;
    height: 400px;
-   background-color: #8085ff;
+}
+
+div:first-of-type {
    border-radius: 50%;
+   background-color: #8085ff;
    box-shadow: 0 0 100px blue;
+}
+
+div:last-of-type {
+   background-color: #f8bdff;
+   box-shadow: 10px 10px 20px #693bff;
 }
