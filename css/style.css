@@ -4,10 +4,9 @@
 }
 
 div {
+   color: red;
    margin: 50px auto 0;
    width: 400px;
    height: 400px;
-   background-color: #8085ff;
-   border-radius: 50%;
-   box-shadow: 0 0 100px blue;
+   text-shadow: 3px 3px 10px black;
 }
